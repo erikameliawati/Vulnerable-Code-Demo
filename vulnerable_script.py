@@ -81,7 +81,6 @@ def command_injection_demo():
         f.write("This is a test report.")
 
     print("\nTest files created: document.txt, report.txt")
-    print("\n Try these command injection attacks:")
 
     while True:
         print("\n--- File Info Tool ---")
