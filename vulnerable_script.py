@@ -25,10 +25,10 @@ def login_vulnerable(conn, username, password):
         result = cursor.fetchone()
 
         if result:
-            print(f"✓ Login successful! Welcome {result[0]}")
-            print(f"   Email: {result[2]}")
+            print(f"Login successful! Welcome {result[0]}")
+            print(f"Email: {result[2]}")
         else:
-            print("✗ Login failed!")
+            print("Login failed!")
     except Exception as e:
         print(f"Error: {e}")
 
@@ -81,7 +81,7 @@ def command_injection_demo():
         f.write("This is a test report.")
 
     print("\nTest files created: document.txt, report.txt")
-    print("\n💡 Try these command injection attacks:")
+    print("\n Try these command injection attacks:")
 
     while True:
         print("\n--- File Info Tool ---")
@@ -94,7 +94,7 @@ def command_injection_demo():
 
 def main():
     print("=" * 70)
-    print("⚠️  VULNERABLE CODE DEMO")
+    print("VULNERABLE CODE DEMO")
     print("=" * 70)
     print("\nThis demonstrates common security vulnerabilities.")
 
